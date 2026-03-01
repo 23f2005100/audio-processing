@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: audio-processing
+    runtime: docker
+    envVars:
+      - key: AIPIPE_TOKEN
+        sync: false
